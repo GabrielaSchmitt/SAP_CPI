@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="API 1",
+    page_title="Fluxos em Execução",
     page_icon="🔍",
     layout="centered",
     initial_sidebar_state="auto",
@@ -30,4 +30,13 @@ with st.sidebar:
             st.config.set_option("theme.base", "light")
         st.rerun()
 
-st.title("Api1")
+st.title("Fluxos em Execução")
+
+
+with st.form("formularioFluxosEmExecucao", clear_on_submit=True): 
+    clientid = st.text_input("Insira o clientid: ") 
+    clientsecret = st.text_input("Insira o clientsecret:") 
+    url = st.text_area("Insira a url:") 
+    tokenurl = st.text_area("Insira o tokenurl:") 
+
+    submit = st.form_submit_button("Enviar")
