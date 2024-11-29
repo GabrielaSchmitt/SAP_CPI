@@ -1,11 +1,11 @@
 import streamlit as st
-from streamlit_extras.colored_header import colored_header
+from streamlit_extras.colored_header import colored_header 
 
 # Script libraries
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 # gif
 import base64
@@ -254,4 +254,3 @@ if st.button("Run"):
             st.dataframe(df)
 
             plot_data(df, flow_name_to_match)
-
