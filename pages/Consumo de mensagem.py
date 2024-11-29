@@ -154,18 +154,18 @@ colored_header(
 
 
 # Define the API endpoint 
-#environment = "https://gfn-qas-cw2itya8.integrationsuite.cfapps.br10.hana.ondemand.com"
+#environment = "https://URLHERE.hana.ondemand.com"
 
 option = st.selectbox('Por gentileza selecione o ambiente:',
 ('DEV - desenvolvimento', 'QAS - qualidade', 'PRD - producao'))
 st.caption(f"Ambiente selecionado: {option}")
 
 if option=='DEV - desenvolvimento':
-    environment = "https://gfn-dev-hkto43i5.integrationsuite.cfapps.br10.hana.ondemand.com"
+    environment = "https://DEVURLHERE.hana.ondemand.com"
 if option=='QAS - qualidade':
-    environment = "https://gfn-qas-cw2itya8.integrationsuite.cfapps.br10.hana.ondemand.com"
+    environment = "https://QASURLHERE.hana.ondemand.com"
 if option=='PRD - producao':
-    environment = "https://gfn-prd-9n1xwzyx.integrationsuite.cfapps.br10.hana.ondemand.com"
+    environment = "https://PRDURLHERE.hana.ondemand.com"
         
 endpoint = "/rest/api/v1/metering/usage/specific-date"
 url = environment+endpoint

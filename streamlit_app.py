@@ -37,5 +37,3 @@ with st.sidebar:
 
 st.title("🔍 CPI Statistics")
 st.write("Seja bem vindo ao Dashboard de Integrações SAP.")
-
-
