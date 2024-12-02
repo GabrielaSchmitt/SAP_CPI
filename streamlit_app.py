@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
     layout="wide",
     menu_items={
-        'About': "Made by Wolketech, Sep 2024."
+        'About': "Made by Gabriela Schmitt, Sep 2024."
     }
 )
 
