@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>SAP CPI</h1>
 
-**SAP_CPI** é uma aplicação web voltada à analise de dados dos fluxos de uma empresa dentro do SAP CPI ( [Integration Suite](https://help.sap.com/docs/cloud-integration?locale=en-US&version=Cloud) ) desenvolvido com Streamlit realizando consultas com a API do sistema gerando gráficos e relatórios pertinentes que hoje não são dispostas de maneira agradavel.
+**SAP_CPI** é uma aplicação web voltada à analise de dados dos fluxos de uma empresa dentro do SAP CPI ( [Integration Suite](https://help.sap.com/docs/cloud-integration?locale=en-US&version=Cloud) ) desenvolvido com Streamlit realizando consultas com a API do sistema gerando gráficos e relatórios principalmente para medir o consumo médio de mensagens das aplicações (é apartir do calculo de mensagens consumidas que a sap emite a fatura do preço mensal a pagar pelo uso do CPI).
 
 ### Acesse o aplicativo pelo link https://sapcpi.streamlit.app/ 
 
